@@ -1,0 +1,43 @@
+/* src/OurVision.css */
+.vision-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: #f4f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .vision-container h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+  }
+  
+  .vision-container p {
+    font-size: 1.2em;
+    color: #34495e;
+    line-height: 1.6;
+  }
+  
+  .vision-points {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .vision-points h2 {
+    font-size: 1.8em;
+    color: #2980b9;
+  }
+  
+  .vision-points ul {
+    list-style-type: disc;
+    margin-top: 10px;
+  }
+  
+  .vision-points li {
+    font-size: 1.1em;
+    color: #2c3e50;
+    margin: 8px 0;
+  }
+  

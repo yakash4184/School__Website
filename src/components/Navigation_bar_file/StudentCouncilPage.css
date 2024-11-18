@@ -1,0 +1,88 @@
+/* Student Council Page Styling */
+.student-council-page {
+    font-family: 'Arial', sans-serif; /* Set font for the entire Student Council page */
+    padding: 20px;
+    background-color: #f4f8ff;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+.student-council-page .header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Moving Heading Style */
+.student-council-page .moving-heading {
+    font-size: 2.5rem;
+    color: #0044cc;
+    font-family: 'Pacifico', cursive;  /* Ensure only the moving heading has Pacifico font */
+    animation: move 5s infinite alternate;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+/* Content Styling */
+.student-council-page .content {
+    margin-top: 40px;
+}
+
+/* Subheading Styling */
+.student-council-page h2 {
+    font-size: 2rem;
+    color: #0044cc;
+    margin-bottom: 10px;
+}
+
+/* Different Sections (introduction, roles, etc.) */
+.student-council-page .introduction,
+.student-council-page .roles,
+.student-council-page .mission,
+.student-council-page .upcoming-events,
+.student-council-page .contact {
+    margin-bottom: 40px;
+}
+
+/* Paragraph Styling */
+.student-council-page p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Unordered List Styling */
+.student-council-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.student-council-page ul li {
+    margin: 5px 0;
+}
+
+/* Link Styling */
+.student-council-page a {
+    color: #0044cc;
+    text-decoration: none;
+}
+
+.student-council-page a:hover {
+    text-decoration: underline;
+}
+
+/* Importing the Pacifico Font */
+@font-face {
+    font-family: 'Pacifico';
+    src: url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+}

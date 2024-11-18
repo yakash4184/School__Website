@@ -1,0 +1,61 @@
+/* Faculty Page Styles */
+.faculty-page {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f7f9fc;
+}
+
+.faculty-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faculty-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.faculty-header p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.faculty-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.faculty-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.faculty-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.faculty-name {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.faculty-designation {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.faculty-expertise {
+    font-size: 0.95rem;
+    color: #666;
+}

@@ -1,0 +1,73 @@
+/* Admissions Page Styles */
+.admissions-page {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.admissions-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.admissions-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.admissions-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.fee-structure {
+    margin-bottom: 40px;
+}
+
+.fee-structure h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.fee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.fee-table th, .fee-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.fee-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.fee-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+.rules-section h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.rules-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.rules-section li {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}

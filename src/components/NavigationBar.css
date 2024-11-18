@@ -1,0 +1,47 @@
+.custom-navbar {
+    background-color: #f8f9fa; /* Light background color for the navbar */
+  }
+  
+  .brand-container {
+    display: flex;
+    align-items: center;
+    background-color: #ffd700; /* Gold background for the logo and text area */
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .brand-text {
+    margin-left: 10px;
+  }
+  
+  .organization-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .address {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: -4px;
+  }
+  
+  /* Add yellow color to all navigation links */
+  .navbar-nav .nav-link, 
+  .navbar-nav .dropdown-item,
+  .navbar-nav .dropdown-toggle {
+    color: rgb(0, 0, 0) !important; /* Make text yellow */
+  }
+  
+  .navbar-nav .nav-link:hover, 
+  .navbar-nav .dropdown-item:hover,
+  .navbar-nav .dropdown-toggle:hover {
+    color: #f3f3f1 !important; /* Slightly brighter yellow on hover */
+  }
+  
+  /* Optional: You can add background hover color if needed */
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .dropdown-item:hover {
+    background-color: rgb(248, 0, 0); /* Adds a transparent yellow background on hover */
+  }
+  

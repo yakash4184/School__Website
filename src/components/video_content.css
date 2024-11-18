@@ -1,0 +1,125 @@
+/* Base styles for the why-choose-us section */
+.why-choose-us-section {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+/* Text content */
+.text-content {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #0066cc;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.main-heading {
+  font-size: 36px;
+  color: #333;
+  margin: 10px 0 20px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.quote {
+  font-style: italic;
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  gap: 30px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 36px;
+  color: #ff6600;
+  font-weight: bold;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.stat-number[data-counting="true"] {
+  color: #28a745; /* Color changes while counting */
+}
+
+.stat-label {
+  font-size: 18px;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* Smaller Video Content */
+.video-container {
+  position: relative;
+  box-sizing: border-box;
+  flex: 1;
+  width: 100%;
+  max-width: 400px;                /* Reduced max width for a more compact view */
+  height: 80px;                   /* Fixed height to maintain 16:9 aspect ratio */
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.school-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;              /* Ensures the entire video fits within the container */
+  border-radius: 8px;               /* Adds rounded corners */
+  display: block;
+  border: 4px solid #333;           /* Optional dark border for definition */
+}
+
+/* Action buttons */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #004c99;
+}

@@ -1,0 +1,40 @@
+.carousel-container {
+    background-image: url('./Images/back.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    }
+    
+  
+  .carousel-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .carousel::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .scroll-arrow {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #ff6600;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
